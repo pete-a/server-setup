@@ -1,8 +1,10 @@
+#!/usr/bin/env bash
+
 RUBY_VERSION="1.9.3-p327"
 
 echo Installing ruby $RUBY_VERSION...
 
-apt-get update
+sudo apt-get update
 
 # setup deploy user
 sudo useradd deploy
