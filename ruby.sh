@@ -14,11 +14,14 @@ sudo apt-get install build-essential openssl libreadline6 libreadline6-dev git-c
 
 # install rbenv
 git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
-sudo echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
-sudo echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 
-sudo exec $SHELL
+exec $SHELL
+source ~/.bash_profile
 
 # install ruby build and latest ruby
 git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+
 rbenv install $RUBY_VERSION
+
