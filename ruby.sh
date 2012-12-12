@@ -16,7 +16,7 @@ sudo apt-get install git
 sudo apt-get install build-essential openssl libreadline6 libreadline6-dev git-core zlib1g zlib1g-dev libssl-dev libyaml-dev 
 
 # install mysql client
-sudo apt-get installmysql-client libmysqlclient-dev
+sudo apt-get install mysql-client libmysqlclient-dev
 
 # install rbenv
 git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
