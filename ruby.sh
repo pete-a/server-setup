@@ -24,4 +24,6 @@ source ~/.bash_profile
 git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 
 rbenv install $RUBY_VERSION
+rbenv rehash
+rbenv global $RUBY_VERSION
 
