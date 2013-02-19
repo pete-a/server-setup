@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-RUBY_VERSION="1.9.3-p327"
+RUBY_VERSION="1.9.3-p385"
 
 echo Installing ruby $RUBY_VERSION...
 
@@ -32,3 +32,5 @@ rbenv install $RUBY_VERSION
 rbenv rehash
 rbenv global $RUBY_VERSION
 
+
+# install the latest rails

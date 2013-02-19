@@ -1,7 +1,7 @@
 server-setup
 ============
 
-This is a simple script to install ruby through Rbenv on Ubuntu 12.04. It has current only been testing on Amazon EC2 instances.
+This is a simple script to install ruby through Rbenv on Ubuntu 12.10. It has currently only been tested on Amazon EC2 instances.
 
 Usage
 -----
